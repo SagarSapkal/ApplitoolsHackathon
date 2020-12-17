@@ -43,7 +43,7 @@ public class HolidayShopping {
 		 eyes = new Eyes(runner);
 		 config = new Configuration();
 		  
-		 config.setApiKey("FN2100c2AmW8EBfCcAbxDXNCiDy0om7111NUt100u6103SqHmMY110");
+		 config.setApiKey(prop.getProperty("APIkey"));
 		 config.setBatch(new BatchInfo("Holiday Shopping"));
 		 config.addBrowser(1200, 800, BrowserType.CHROME);	 
 
@@ -87,15 +87,15 @@ public class HolidayShopping {
 			eyes.open(driver, "AppliFashion", "Test 2");	
 			
 
-			driver.findElement(By.xpath("//label[contains(text(),'Black')]")).click();
-			driver.findElement(By.xpath("//button[@id='filterBtn']")).click();			
+			driver.findElement(By.xpath(prop.getProperty("blackLabel_xpath"))).click();
+			driver.findElement(By.xpath(prop.getProperty("filterBtn_xpath"))).click();			
 	
 			
-			WebElement shoeRegion= driver.findElement(By.xpath("//*[@id='product_grid']"));
+			WebElement shoeRegion= driver.findElement(By.xpath(prop.getProperty("productsGrid_xpath")));
 			eyes.checkRegion(shoeRegion,"filter by color");			
 			eyes.closeAsync();
 			
-			List<WebElement> products= driver.findElements(By.xpath("//*[@id='product_grid']/div"));		
+			List<WebElement> products= driver.findElements(By.xpath(prop.getProperty("productGridList_xpath")));		
 			Assert.assertEquals(products.size(), 2 , " More than 2 products displayed");
 
 		} finally {
@@ -112,7 +112,7 @@ public class HolidayShopping {
 		
 			eyes.open(driver, "AppliFashion", "Test 3");		
 			
-			driver.findElement(By.xpath("//img[@alt='Appli Air x Night']")).click();
+			driver.findElement(By.xpath(prop.getProperty("shoes_xpath"))).click();
 			
 			eyes.check(Target.window().fully().withName("product details"));
 			

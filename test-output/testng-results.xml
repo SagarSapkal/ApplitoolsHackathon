@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-17T02:22:14Z" name="Default suite" finished-at="2020-12-17T02:23:16Z" duration-ms="61937">
+  <suite started-at="2020-12-17T17:45:56Z" name="Suite" finished-at="2020-12-17T17:47:08Z" duration-ms="72243">
     <groups>
     </groups>
-    <test started-at="2020-12-17T02:22:14Z" name="Default test" finished-at="2020-12-17T02:23:16Z" duration-ms="61937">
+    <test started-at="2020-12-17T17:45:56Z" name="Test" finished-at="2020-12-17T17:47:08Z" duration-ms="72243">
       <class name="Selenium.test.HolidayShopping">
-        <test-method is-config="true" signature="initialSetup()[pri:0, instance:Selenium.test.HolidayShopping@10d68fcd]" started-at="2020-12-16T21:22:14Z" name="initialSetup" finished-at="2020-12-16T21:22:20Z" duration-ms="6239" status="PASS">
+        <test-method is-config="true" signature="initialSetup()[pri:0, instance:Selenium.test.HolidayShopping@10d68fcd]" started-at="2020-12-17T12:45:56Z" name="initialSetup" finished-at="2020-12-17T12:46:05Z" duration-ms="8689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetup -->
-        <test-method signature="mainPageTest()[pri:1, instance:Selenium.test.HolidayShopping@10d68fcd]" started-at="2020-12-16T21:22:20Z" name="mainPageTest" finished-at="2020-12-16T21:22:33Z" duration-ms="12111" status="PASS">
+        <test-method signature="mainPageTest()[pri:1, instance:Selenium.test.HolidayShopping@10d68fcd]" started-at="2020-12-17T12:46:05Z" name="mainPageTest" finished-at="2020-12-17T12:46:20Z" duration-ms="14999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainPageTest -->
-        <test-method signature="filterByColorTest()[pri:2, instance:Selenium.test.HolidayShopping@10d68fcd]" started-at="2020-12-16T21:22:33Z" name="filterByColorTest" finished-at="2020-12-16T21:22:34Z" duration-ms="1501" status="PASS">
+        <test-method signature="filterByColorTest()[pri:2, instance:Selenium.test.HolidayShopping@10d68fcd]" started-at="2020-12-17T12:46:20Z" name="filterByColorTest" finished-at="2020-12-17T12:46:22Z" duration-ms="2519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByColorTest -->
-        <test-method signature="produceDetailsTest()[pri:3, instance:Selenium.test.HolidayShopping@10d68fcd]" started-at="2020-12-16T21:22:34Z" name="produceDetailsTest" finished-at="2020-12-16T21:22:36Z" duration-ms="1561" status="PASS">
+        <test-method signature="produceDetailsTest()[pri:3, instance:Selenium.test.HolidayShopping@10d68fcd]" started-at="2020-12-17T12:46:22Z" name="produceDetailsTest" finished-at="2020-12-17T12:46:25Z" duration-ms="3011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- produceDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.test.HolidayShopping@10d68fcd]" started-at="2020-12-16T21:22:36Z" name="tearDown" finished-at="2020-12-16T21:23:16Z" duration-ms="40503" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.test.HolidayShopping@10d68fcd]" started-at="2020-12-17T12:46:25Z" name="tearDown" finished-at="2020-12-17T12:47:08Z" duration-ms="42963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Selenium.test.HolidayShopping -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
