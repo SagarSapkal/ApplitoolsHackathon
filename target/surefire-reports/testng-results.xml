@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-17T02:17:50Z" name="Selenium.test.HolidayShoppingTest" finished-at="2020-12-17T02:18:53Z" duration-ms="63290">
+    <groups>
+    </groups>
+    <test started-at="2020-12-17T02:17:50Z" name="Command line test" finished-at="2020-12-17T02:18:53Z" duration-ms="63290">
+      <class name="Selenium.test.HolidayShoppingTest">
+        <test-method is-config="true" signature="initialSetup()[pri:0, instance:Selenium.test.HolidayShoppingTest@353d0772]" started-at="2020-12-16T21:17:50Z" name="initialSetup" finished-at="2020-12-16T21:17:57Z" duration-ms="6962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method signature="mainPageTest()[pri:1, instance:Selenium.test.HolidayShoppingTest@353d0772]" started-at="2020-12-16T21:17:57Z" name="mainPageTest" finished-at="2020-12-16T21:18:09Z" duration-ms="12167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainPageTest -->
+        <test-method signature="filterByColorTest()[pri:2, instance:Selenium.test.HolidayShoppingTest@353d0772]" started-at="2020-12-16T21:18:09Z" name="filterByColorTest" finished-at="2020-12-16T21:18:10Z" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByColorTest -->
+        <test-method signature="produceDetailsTest()[pri:3, instance:Selenium.test.HolidayShoppingTest@353d0772]" started-at="2020-12-16T21:18:10Z" name="produceDetailsTest" finished-at="2020-12-16T21:18:12Z" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- produceDetailsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.test.HolidayShoppingTest@353d0772]" started-at="2020-12-16T21:18:12Z" name="tearDown" finished-at="2020-12-16T21:18:53Z" duration-ms="40931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.test.HolidayShoppingTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Selenium.test.HolidayShoppingTest -->
+</testng-results>
